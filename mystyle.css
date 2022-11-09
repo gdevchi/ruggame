@@ -1,0 +1,348 @@
+/*
+@font-face {
+    font-family: 'press_start_2pregular';
+    src: url('pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('pressstart2p-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*/
+@font-face {
+    font-family: 'Consolas';
+    src: url('fonts/Consolas.woff2') format('woff2'),
+         url('fonts/Consolas.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* body background on all pages */
+
+body{
+font-family: 'Consolas';
+background-image: radial-gradient(#4caf50, transparent),url(https://media4.giphy.com/media/OVlFjmEDhx9rG/200w.gif?cid=82a1493b1p5adkhyug0b2nvw3i3u94srfurvobxfank5t4v9&rid=200w.gif&ct=g);
+width: 100%;
+height: 100vh;
+color:  #00d63f;
+
+}
+
+/* heading title on all pages */
+
+.heading-text{
+font-weight:900;
+text-transform: uppercase;
+text-shadow: 0px 3px, 3px 0px, 3px 3px;
+font-size: 3em;
+}
+
+/* leaderboard page */ 
+
+
+
+.table-responsive{
+	 overflow-x: auto;
+	 color:  #04e148;
+
+	}
+
+table.table-bordered{
+    border:4px solid  #04e148 !important;
+  }
+table.table-bordered > thead > tr > th{
+    border:4px solid  #04e148 !important;
+}
+table.table-bordered > tbody > tr > td{
+    border:4px solid  #04e148 !important;
+    color: #04e148;
+}
+
+.table > :not(:first-child) {
+    border-top: 4px solid #04e148;
+}
+
+th{
+    color: #04e148 ;
+    font-size: 1.5em;
+}
+
+.table-row{
+          border: 4px solid #04e148;
+
+}
+.gameover-heading{
+    width:70%;
+    text-transform: uppercase;
+ }
+
+#gameover-row{
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-right: 4px solid;
+
+}
+
+/*  leaderboard-btn */
+ .btn-default{
+ border:3px solid  #04e148;
+ color: #04e148;
+text-shadow: 0px 0.5px, 0.5px 0px, 0.5px 0.5px;
+ }
+
+
+ .leaderboard-btn:hover{
+background-color: #04e148;
+color: black;
+border-radius: 10px ;
+ }
+}
+
+
+
+
+
+ /* STAKE TRG */
+
+#return-btn{
+     border:3px solid  #04e148;
+ color: #04e148;
+text-shadow: 0px 0.5px, 0.5px 0px, 0.5px 0.5px;
+}
+
+.trg-button{
+float: right;
+margin-right: 10px;
+}
+
+.trg-button:hover{
+background-color: #04e148;
+color:  black;
+border-radius: 10px ;
+ }
+
+
+#basic-addon1{
+    background-color: #04e148;
+}
+
+#stakes-para{
+    font-size: 1.5em;
+
+}
+
+#staketrg-link:hover{
+background-color: #04e148;
+color:  black;
+border-radius: 10px;
+ }
+
+ #staketrg-link{
+    color:#04e148;
+    text-decoration: none;
+ }
+
+#bribes-link:hover{
+background-color: #04e148;
+color:  black;
+border-radius: 10px;
+ }
+
+ #bribes-link{
+    color:#04e148;
+    text-decoration: none;
+ }
+
+ /*Bribes */
+
+ .bribes-para{
+    font-size: 1.7em;
+ }
+ .alphabet-button{
+    border: none;
+    font-size: 2.2em;
+ }
+  .alphabet-button:hover{
+background-color: #04e148;
+color:  black;
+border-radius: 10px ;
+ }
+
+ .trg-balance-button{
+float: right;
+margin-right: 10px;
+ }
+  .trg-balance-button:hover{
+background-color: #04e148;
+color:  black;
+border-radius: 10px ;
+ }
+ .basic-addon1{
+background-color: #04e148;   
+ }
+
+
+ .trg-unstake-button{
+float: right;
+margin-right: 10px;
+ }
+
+.trg-unstake-button:hover{
+ background-color: #04e148;
+color:  black;
+border-radius: 10px ; 
+}
+
+
+ .return-link{
+    color:#04e148;
+    text-decoration: none;
+ }
+#return-btn:hover{
+background-color:#04e148;
+color:  black;
+border-radius: 10px;
+ }
+
+.return-link:hover{
+background-color: #04e148;
+color:  black;
+ }
+ #return-btn{
+    padding-top: 10px;
+ }
+
+
+
+input[placeholder]{
+    text-transform: uppercase;
+}
+
+.form-control::-moz-placeholder {
+      color:#04e148 !important;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+   color:#04e148 !important;
+}
+.form-control::-webkit-input-placeholder {
+  color:#04e148 !important;
+}
+
+/* myAudio */
+
+#myAudio{
+    display:  none;
+}
+
+
+/* input text */
+
+input[type="text"]{
+    background-color: black;
+    border: none;
+    color: #04e148;
+}
+
+
+/* Fuzzy animation */
+
+p{
+    font-size: 1.5em;
+}
+
+.fuzzy { animation: fuzzy 76s; }
+@keyframes fuzzy { to { filter: blur(1em)}}
+
+.fuzzy {
+  animation: shake-animation 9.72s;
+  /* transform-origin: 50% 50%; */
+}
+
+.fuzzy{
+  -webkit-animation-name: shake;
+  -webkit-animation-duration: 1s;
+-webkit-animation-iteration-count: 6s;
+  -webkit-animation-timing-function: ease-in; 
+  -webkit-transform-origin: 50% 100%;
+}
+@-webkit-keyframes shake {
+  to { filter: blur(1em)}
+  
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-4px, -2px) rotate(-2deg);
+  }
+  20% {
+    -webkit-transform: translate(-6px, 0px) rotate(3deg);
+  }
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(4px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-5px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-13px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(27px, 1px) rotate(-2deg);
+  }
+  80% {
+    -webkit-transform: translate(-14px, -1px) rotate(4deg);
+  }
+  90% {
+    -webkit-transform: translate(21px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(10px, -2px) rotate(-1deg);
+  }
+}
+
+/* blink animation */
+
+.blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+
+
+
+
+
+
+      /* zoom animation */
+     
+     #zoom-div{
+        background-image: url("image.png");
+        width: 100%;
+height: 100vh;
+color:  #00d63f;
+background-attachment: cover;
+background-repeat: no-repeat;
+     }
+
+     /* tv container */
+
+     .tv-container{
+        background-image: url("oldpc.png");
+     }
+
+    
